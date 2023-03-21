@@ -5,10 +5,10 @@
 */
 int main(void)
 {
-printif("Size of a char: %i byte(s)\n", sizeof(char));
-printif("Size of a int: %i byte(s)\n", sizeof(int));
-printif("Size of a long int: %i byte(s)\n", sizeof(long int));
-printif("Size of a long long int: %i byte(s)\n", sizeof(long long int));
-printif("Size of a float: %i byte(s)\n", sizeof(float));
+printif("Size of a char: %lu byte(s)\n", sizeof(char));
+printif("Size of a int: %lu byte(s)\n", sizeof(int));
+printif("Size of a long int: %lu byte(s)\n", sizeof(long int));
+printif("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
+printif("Size of a float: %lu byte(s)\n", sizeof(float));
 return (0);
 }
