@@ -1,7 +1,7 @@
 #include <studio.h>
 /**
 * main - Entry
-* Return: Always 0
+* Return: Always 0 (success)
 */
 int main(void)
 {
@@ -11,3 +11,4 @@ printif("Size of a long int: %i byte(s)\n", sizeof(long int));
 printif("Size of a long long int: %i byte(s)\n", sizeof(long long int));
 printif("Size of a float: %i byte(s)\n", sizeof(float));
 return (0);
+}
