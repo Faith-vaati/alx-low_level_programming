@@ -4,13 +4,9 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * @brief Entry point of the program.
+ * main - ptints a random number that is positive, negative or 0
  *
- * This program performs XYZ operations and produces XYZ output based on user input.
- * It showcases the usage of XYZ functionality and provides XYZ results.
- * Refer to the source code comments for detailed explanations.
- *
- * @return 0 on successful execution, non-zero value on error.
+ * Return: Always 0
  */
 int main(void)
 {
